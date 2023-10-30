@@ -35,7 +35,5 @@ def visualize():
     ax.plot(x, leaky_relu(x)[0], color="#307EC7", linewidth=3, label="leaky relu")
     ax.plot(x, leaky_relu(x)[1], color="#9621E2", linewidth=3, label="derivative")
     ax.legend(loc="upper right", frameon=False)
+    fig.suptitle('Leaky ReLU')
     fig.show()
-
-    plt.title('Leaky ReLU (rectified linear unit)')
-    plt.show()

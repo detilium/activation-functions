@@ -41,7 +41,5 @@ def visualize():
     ax.plot(z, tanh(z)[0], color="#307EC7", linewidth=3, label="tanh")
     ax.plot(z, tanh(z)[1], color="#9621E2", linewidth=3, label="derivative")
     ax.legend(loc="upper right", frameon=False)
+    fig.suptitle('Tanh (tangent hyperbolic)')
     fig.show()
-
-    plt.title('Tanh (tangent hyperbolic)')
-    plt.show()

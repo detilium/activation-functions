@@ -7,13 +7,15 @@ from activation_functions.relu import visualize as relu
 from activation_functions.leaky_relu import visualize as leaky_relu
 
 # Sigmoid
-#sigmoid()
+sigmoid()
 
 # Tanh
-#tanh()
+tanh()
 
 # ReLU
-#relu()
+relu()
 
 # Leaky ReLU
-#leaky_relu()
+leaky_relu()
+
+plt.show()
