@@ -1,15 +1,3 @@
-# Tanh activation function (tangent hyperbolic)
-# ---
-# The output of the tanh activation function, will always range between -1 and 1.
-# The tanh function is zero-centered, which makes the optimization process muh easier than sigmoid,
-# and has a steeper gradient than the sigmoid function.
-# ---
-# The tanh function is primarily used in recurrent neural networks, and is no usually used in
-# MLPs and CNNs. Instead, ReLU og leaky ReLU is used.
-# Tanh should never be used in the output layer.
-# Tanh has the vanishing gradient problem.
-# Tanh is always preferred over the sigmoid activation function.
-
 import numpy as np
 import matplotlib.pyplot as plt
 

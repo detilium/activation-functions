@@ -1,16 +1,3 @@
-# Sigmoid activation function (also called the logistic functions)
-# ---
-# The sigmoid function has a "s-shaped" graph, and converts its output into a probability between 0 and 1,
-# converting large negative numbers towards 0 and large positive number towards 1.
-# For the input "0" the function returns 0.5.
-# ---
-# The sigmoid function is basically only used in recurrent neural networks,
-# and is therefore not used in MLPs or CNNs. Instead, ReLU or leaky ReLU is used.
-# The sigmoid function should only be used in the output layer when building a binary classifier,
-# in which the output is interpreted as a class label depending on the probability value of
-# input returned by the function.
-# The sigmoid function has the vanishing gradient problem.
-
 import numpy as np
 import matplotlib.pyplot as plt
 

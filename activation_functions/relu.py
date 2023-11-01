@@ -1,13 +1,3 @@
-# ReLU (rectified linear unit)
-# ---
-# ReLU is the most frequently used activation function.
-# RelU is the goto activation function in deep complex neural networks, and exhibits better performace
-# than the sigmoid and tanh activation function.
-# ---
-# ReLU suffers from the "dead nodes" problem. If nodes are not activated initially,
-# then the nodes will forever be in the off-state as zero gradients flot through them.
-# However, this can be solved by enforcing a small negative gradient flow through the network (leaky ReLU)
-
 import numpy as np
 import matplotlib.pyplot as plt
 

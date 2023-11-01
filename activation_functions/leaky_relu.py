@@ -1,21 +1,15 @@
-# Leaky ReLU (leaky rectified linear unit)
-# ---
-# Leaky ReLU acts as a "safeguard" implementation of ReLU.
-# Leaky ReLU adds a small negative gradient flow through the network, solving the
-# problem of "dead nodes" using standard ReLU.
-
 import numpy as np
 import matplotlib.pyplot as plt
 
 
 def leaky_relu(x):
-    r = [value if value > 0 else 0.05 * value for value in x]
-    dr = [1 if value > 0 else 0.05 for value in x]
+    r = [value if value > 0 else 0.01 * value for value in x]
+    dr = [1 if value > 0 else 0.01 for value in x]
     return r, dr
 
 
 def leaky_rely_derivative(x):
-    return [1 if value > 0 else 0.05 for value in x]
+    return [1 if value > 0 else 0.1 for value in x]
 
 
 def visualize():
