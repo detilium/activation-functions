@@ -5,17 +5,21 @@ from activation_functions.sigmoid import visualize as sigmoid
 from activation_functions.tanh import visualize as tanh
 from activation_functions.relu import visualize as relu
 from activation_functions.leaky_relu import visualize as leaky_relu
+from activation_functions.relu6 import visualize as relu6
 
 # Sigmoid
-sigmoid()
+#sigmoid()
 
 # Tanh
-tanh()
+#tanh()
 
 # ReLU
-relu()
+#relu()
 
 # Leaky ReLU
-leaky_relu()
+#leaky_relu()
+
+# ReLU6
+#relu6()
 
 plt.show()
