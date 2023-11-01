@@ -6,6 +6,7 @@ from activation_functions.tanh import visualize as tanh
 from activation_functions.relu import visualize as relu
 from activation_functions.leaky_relu import visualize as leaky_relu
 from activation_functions.relu6 import visualize as relu6
+from activation_functions.softmax import visualize as softmax
 
 # Sigmoid
 #sigmoid()
@@ -21,5 +22,8 @@ from activation_functions.relu6 import visualize as relu6
 
 # ReLU6
 #relu6()
+
+# Softmax
+#softmax()
 
 plt.show()
