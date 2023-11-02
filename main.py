@@ -8,6 +8,7 @@ from activation_functions.leaky_relu import visualize as leaky_relu
 from activation_functions.relu6 import visualize as relu6
 from activation_functions.softmax import visualize as softmax
 from activation_functions.identity import visualize as identity
+from activation_functions.swish import visualize as swish
 
 # Sigmoid
 #sigmoid()
@@ -28,6 +29,9 @@ from activation_functions.identity import visualize as identity
 #softmax()
 
 # Identity
-identity()
+#identity()
+
+# Swish
+swish()
 
 plt.show()
